@@ -70,8 +70,8 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.to_i
 binding.pry
-    list = Song.all.sort_by(&:name).each.with_index do |song, index|
-    puts "Playing #{list[(input - 1)].name} by #{list[user - 1].artist.name}"
+    # list = Song.all.sort_by(&:name).each.with_index do |song, index|
+    # puts "Playing #{list[(input - 1)].name} by #{list[user - 1].artist.name}"
   end
     # list.collect { |song|
   #
