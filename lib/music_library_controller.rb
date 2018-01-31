@@ -72,7 +72,7 @@ class MusicLibraryController
 binding.pry
     # list = Song.all.sort_by(&:name).each.with_index do |song, index|
     # puts "Playing #{list[(input - 1)].name} by #{list[user - 1].artist.name}"
-  end
+  # end
     # list.collect { |song|
   #
   #   if input > 0 && input < list.count
